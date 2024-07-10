@@ -1,7 +1,14 @@
 import { HiOutlineSelector } from "react-icons/hi";
 import { BiMenuAltRight } from "react-icons/bi";
+import { FaFacebook, FaGoogle, FaMobileAlt } from 'react-icons/fa';
+import {MdEmail} from 'react-icons/md';
+import { useRef } from "react";
 import {
+  FormControl,
+  FormLabel,
+  Input,
   Flex,
+  Link,
   VStack,
   HStack,
   Image,
@@ -17,6 +24,14 @@ import {
   DrawerCloseButton,
   useDisclosure,
   Heading,
+  AlertDialog,
+  AlertDialogBody,
+  AlertDialogContent,
+  AlertDialogHeader,
+  AlertDialogOverlay,
+  AlertDialogFooter,
+  Icon,
+  Box
 } from "@chakra-ui/react";
 
 export default function Header() {
@@ -29,6 +44,8 @@ export default function Header() {
 }
 
 function DesktopHeader() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const cancelRef = useRef();
   return (
     <VStack w="full" p={0} display={["none", "none", "flex"]}>
       <HStack
@@ -66,11 +83,68 @@ function DesktopHeader() {
         </HStack>
         <HStack>
           <Button variant="outline" colorScheme="teal">
-            Login
-          </Button>
-          <Button variant="solid" colorScheme="teal">
             Sign up
           </Button>
+          <Button variant="solid" onClick={onOpen} colorScheme="teal">
+            Login
+          </Button>
+          <AlertDialog
+        isOpen={isOpen}
+        leastDestructiveRef={cancelRef}
+        onClose={onClose}
+      >
+        <AlertDialogOverlay >
+          <AlertDialogContent alignItems={"center"} borderRadius={'3xl'}>
+            <AlertDialogHeader fontSize='2xl' fontWeight='bold'>
+              Login
+            </AlertDialogHeader>
+            <AlertDialogBody alignItems="center" justifyContent='center' justifyItems={'center'}>
+            <Box pb={4}>
+            <VStack spacing={4}>
+                <Button 
+                  leftIcon={<Icon as={FaGoogle} />} 
+                  colorScheme="red" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Google
+                </Button>
+                <Button 
+                  leftIcon={<Icon as={FaFacebook} />} 
+                  colorScheme="facebook" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Facebook
+                </Button>
+                <Button 
+                  leftIcon={<Icon as={MdEmail} />} 
+                  colorScheme="blue" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Email
+                </Button>
+                <Button 
+                  leftIcon={<Icon as={FaMobileAlt} />} 
+                  colorScheme="teal" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Mobile Number
+                </Button>
+                <Text pt={4}>
+                  Don't have an account?{' '}
+                  <Link color="teal.500" href="#">
+                    Create Account
+                  </Link>
+                </Text>
+              </VStack>
+              </Box>
+            </AlertDialogBody>
+          </AlertDialogContent>
+        </AlertDialogOverlay>
+      </AlertDialog>
         </HStack>
       </HStack>
       <Divider shadow={"base"} />
