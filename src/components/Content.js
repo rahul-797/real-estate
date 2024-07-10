@@ -59,16 +59,17 @@ const arr = [
     id: 50,
     type: "Office",
     location: "London, UK",
-    price: "120000",
+    price: "260000",
+    src: "/images/office6.jpg",
     name: "Seaview Tower"
   },
   {
     id: 51,
     type: "Office",
     location: "London, UK",
-    price: "120000",
+    price: "260000",
     src: "/images/office10.jpg",
-    name: "Seaview Tower"
+    name: "Googol Tower"
   },
   {
     id: 52,
@@ -76,7 +77,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     src: "/images/house1.jpg",
-    name: "Skyline Plaza"
+    name: "Ronaldo Villa"
   },
   {
     id: 53,
@@ -100,7 +101,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     src: "/images/office9.jpg",
-    name: "Riverside House"
+    name: "Riverside Office"
   },
   {
     id: 56,
@@ -138,7 +139,7 @@ const arr = [
     id: 60,
     type: "Office",
     location: "London, UK",
-    price: "120000",
+    price: "260000",
     moveInDate: "30 Nov, 2024",
     src: "/images/office11.jpg",
     name: "Modern Studio"
@@ -177,7 +178,7 @@ const arr = [
     price: "120000",
     moveInDate: "30 Nov, 2024",
     src: "/images/office3.jpg",
-    name: "Modern Studio"
+    name: "Amazon Office"
   },
   {
     id: 65,
@@ -255,10 +256,10 @@ const arr = [
     id: 73,
     type: "Office",
     location: "London, UK",
-    price: "120000",
+    price: "260000",
     moveInDate: "30 Nov, 2024",
     src: "/images/office1.jpg",
-    name: "Modern Studio"
+    name: "Seaview Studio"
   },
   {
     id: 74,
@@ -267,7 +268,7 @@ const arr = [
     price: "260000",
     moveInDate: "30 Nov, 2024",
     src: "/images/house4.jpg",
-    name: "Skyline Plaza"
+    name: "Mbappe House"
   },
   {
     id: 75,
@@ -303,7 +304,7 @@ const arr = [
     price: "120000",
     moveInDate: "7 Jan, 2025",
     src: "/images/house8.jpg",
-    name: "Seaview Tower"
+    name: "Pino House"
   },
   {
     id: 79,
@@ -312,7 +313,7 @@ const arr = [
     price: "120000",
     moveInDate: "7 Jan, 2025",
     src: "/images/office9.jpg",
-    name: "Skyline Plaza"
+    name: "Skyline Studios"
   },
   {
     id: 80,
@@ -321,7 +322,7 @@ const arr = [
     price: "120000",
     moveInDate: "7 Jan, 2025",
     src: "/images/house6.jpg",
-    name: "Modern Studio"
+    name: "Modern Bunglow"
   },
   {
     id: 81,
@@ -375,7 +376,7 @@ const arr = [
     price: "260000",
     moveInDate: "30 Nov, 2024",
     src: "/images/house7.jpg",
-    name: "Riverside House"
+    name: "Statin House"
   },
   {
     id: 87,
@@ -420,7 +421,7 @@ const arr = [
     price: "120000",
     moveInDate: "7 Jan, 2025",
     src: "/images/office4.jpg",
-    name: "Skyline Plaza"
+    name: "Wolter Plaza"
   },
   {
     id: 92,
@@ -438,7 +439,7 @@ const arr = [
     price: "120000",
     moveInDate: "7 Jan, 2025",
     src: "/images/office3.jpg",
-    name: "Skyline Plaza"
+    name: "Simons Spaces"
   },
   {
     id: 94,
@@ -483,7 +484,7 @@ const arr = [
     price: "260000",
     moveInDate: "7 Jan, 2025",
     src: "/images/house4.jpg",
-    name: "Modern Studio"
+    name: "Dino House"
   },
   {
     id: 99,
