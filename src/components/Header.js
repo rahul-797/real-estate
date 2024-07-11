@@ -135,7 +135,7 @@ function DesktopHeader() {
                 </Button>
                 <Text pt={4}>
                   Don't have an account?{' '}
-                  <Link color="teal.500" href="#">
+                  <Link color="teal.500" href="#" onClick={onClose}>
                     Create Account
                   </Link>
                 </Text>
