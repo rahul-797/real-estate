@@ -60,7 +60,7 @@ const arr = [
     type: "Office",
     location: "London, UK",
     price: "260000",
-    src: "/images/office6.jpg",
+    src: "/images/office6.webp",
     name: "Seaview Tower"
   },
   {
@@ -68,7 +68,7 @@ const arr = [
     type: "Office",
     location: "London, UK",
     price: "260000",
-    src: "/images/office10.jpg",
+    src: "/images/office10.webp",
     name: "Googol Tower"
   },
   {
@@ -76,7 +76,7 @@ const arr = [
     type: "House",
     location: "London, UK",
     price: "120000",
-    src: "/images/house1.jpg",
+    src: "/images/house1.webp",
     name: "Ronaldo Villa"
   },
   {
@@ -84,7 +84,7 @@ const arr = [
     type: "Office",
     location: "London, UK",
     price: "120000",
-    src: "/images/office7.jpg",
+    src: "/images/office7.webp",
     name: "Urban Loft"
   },
   {
@@ -92,7 +92,7 @@ const arr = [
     type: "House",
     location: "New York, USA",
     price: "120000",
-    src: "/images/house3.jpg",
+    src: "/images/house3.webp",
     name: "Business Center"
   },
   {
@@ -100,7 +100,7 @@ const arr = [
     type: "Office",
     location: "London, UK",
     price: "260000",
-    src: "/images/office9.jpg",
+    src: "/images/office9.webp",
     name: "Riverside Office"
   },
   {
@@ -108,7 +108,7 @@ const arr = [
     type: "House",
     location: "London, UK",
     price: "120000",
-    src: "/images/house11.jpg",
+    src: "/images/house11.webp",
     name: "Beachfront Property"
   },
   {
@@ -116,7 +116,7 @@ const arr = [
     type: "House",
     location: "London, UK",
     price: "260000",
-    src: "/images/house5.jpg",
+    src: "/images/house5.webp",
     name: "Parkside Residence"
   },
   {
@@ -124,7 +124,7 @@ const arr = [
     type: "House",
     location: "New York, USA",
     price: "260000",
-    src: "/images/house8.jpg",
+    src: "/images/house8.webp",
     name: "Skyline Plaza"
   },
   {
@@ -132,7 +132,7 @@ const arr = [
     type: "Office",
     location: "New York, USA",
     price: "260000",
-    src: "/images/office7.jpg",
+    src: "/images/office7.webp",
     name: "Greenwood Estate"
   },
   {
@@ -141,7 +141,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office11.jpg",
+    src: "/images/office11.webp",
     name: "Modern Studio"
   },
   {
@@ -150,7 +150,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office4.jpg",
+    src: "/images/office4.webp",
     name: "Forest Cabin"
   },
   {
@@ -159,7 +159,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house7.jpg",
+    src: "/images/house7.webp",
     name: "Urban Loft"
   },
   {
@@ -168,7 +168,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house10.jpg",
+    src: "/images/house10.webp",
     name: "Sunset Villa"
   },
   {
@@ -177,7 +177,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office3.jpg",
+    src: "/images/office3.webp",
     name: "Amazon Office"
   },
   {
@@ -186,7 +186,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house9.jpg",
+    src: "/images/house9.webp",
     name: "Urban Loft"
   },
   {
@@ -195,7 +195,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office2.jpg",
+    src: "/images/office2.webp",
     name: "Downtown Office"
   },
   {
@@ -204,7 +204,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house3.jpg",
+    src: "/images/house3.webp",
     name: "Historical Mansion"
   },
   {
@@ -213,7 +213,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house4.jpg",
+    src: "/images/house4.webp",
     name: "Greenwood Estate"
   },
   {
@@ -222,7 +222,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house5.jpg",
+    src: "/images/house5.webp",
     name: "Urban Loft"
   },
   {
@@ -231,7 +231,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house8.jpg",
+    src: "/images/house8.webp",
     name: "Historical Mansion"
   },
   {
@@ -240,7 +240,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house10.jpg",
+    src: "/images/house10.webp",
     name: "Beachfront Property"
   },
   {
@@ -249,7 +249,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house11.jpg",
+    src: "/images/house11.webp",
     name: "Historical Mansion"
   },
   {
@@ -258,7 +258,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office1.jpg",
+    src: "/images/office1.webp",
     name: "Seaview Studio"
   },
   {
@@ -267,7 +267,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house4.jpg",
+    src: "/images/house4.webp",
     name: "Mbappe House"
   },
   {
@@ -276,7 +276,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office11.jpg",
+    src: "/images/office11.webp",
     name: "Urban Loft"
   },
   {
@@ -285,7 +285,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house1.jpg",
+    src: "/images/house1.webp",
     name: "Riverside House"
   },
   {
@@ -294,7 +294,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office10.jpg",
+    src: "/images/office10.webp",
     name: "Forest Cabin"
   },
   {
@@ -303,7 +303,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house8.jpg",
+    src: "/images/house8.webp",
     name: "Pino House"
   },
   {
@@ -312,7 +312,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office9.jpg",
+    src: "/images/office9.webp",
     name: "Skyline Studios"
   },
   {
@@ -321,7 +321,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house6.jpg",
+    src: "/images/house6.webp",
     name: "Modern Bunglow"
   },
   {
@@ -330,7 +330,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house2.jpg",
+    src: "/images/house2.webp",
     name: "Riverside House"
   },
   {
@@ -339,7 +339,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office8.jpg",
+    src: "/images/office8.webp",
     name: "Mountain Retreat"
   },
   {
@@ -348,7 +348,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house5.jpg",
+    src: "/images/house5.webp",
     name: "Downtown Office"
   },
   {
@@ -357,7 +357,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office7.jpg",
+    src: "/images/office7.webp",
     name: "Modern Studio"
   },
   {
@@ -366,7 +366,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office6.jpg",
+    src: "/images/office6.webp",
     name: "Business Center"
   },
   {
@@ -375,7 +375,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house7.jpg",
+    src: "/images/house7.webp",
     name: "Statin House"
   },
   {
@@ -384,7 +384,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house9.jpg",
+    src: "/images/house9.webp",
     name: "Downtown Office"
   },
   {
@@ -393,7 +393,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/house3.jpg",
+    src: "/images/house3.webp",
     name: "Downtown Office"
   },
   {
@@ -402,7 +402,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office5.jpg",
+    src: "/images/office5.webp",
     name: "Greenwood Estate"
   },
   {
@@ -411,7 +411,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house11.jpg",
+    src: "/images/house11.webp",
     name: "City Center Hub"
   },
   {
@@ -420,7 +420,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office4.jpg",
+    src: "/images/office4.webp",
     name: "Wolter Plaza"
   },
   {
@@ -429,7 +429,7 @@ const arr = [
     location: "New York, USA",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house6.jpg",
+    src: "/images/house6.webp",
     name: "City Center Hub"
   },
   {
@@ -438,7 +438,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office3.jpg",
+    src: "/images/office3.webp",
     name: "Simons Spaces"
   },
   {
@@ -447,7 +447,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "30 Nov, 2024",
-    src: "/images/office2.jpg",
+    src: "/images/office2.webp",
     name: "Penthouse Suite"
   },
   {
@@ -456,7 +456,7 @@ const arr = [
     location: "London, UK",
     price: "120000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/office1.jpg",
+    src: "/images/office1.webp",
     name: "Hilltop Office"
   },
   {
@@ -465,7 +465,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house2.jpg",
+    src: "/images/house2.webp",
     name: "Penthouse Suite"
   },
   {
@@ -474,7 +474,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house8.jpg",
+    src: "/images/house8.webp",
     name: "Forest Cabin"
   },
   {
@@ -483,7 +483,7 @@ const arr = [
     location: "New York, USA",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house4.jpg",
+    src: "/images/house4.webp",
     name: "Dino House"
   },
   {
@@ -492,7 +492,7 @@ const arr = [
     location: "London, UK",
     price: "260000",
     moveInDate: "7 Jan, 2025",
-    src: "/images/house11.jpg",
+    src: "/images/house11.webp",
     name: "Business Center"
   }
 ];
