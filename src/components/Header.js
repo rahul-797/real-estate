@@ -153,7 +153,9 @@ function DesktopHeader() {
 }
 
 function MobileDrawer() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const drawer = useDisclosure();
+  const login = useDisclosure();
+  const cancelRef = useRef();
 
   return (
     <Flex display={["flex", "flex", "none"]}>
@@ -168,12 +170,12 @@ function MobileDrawer() {
             colorScheme="teal"
             icon={<BiMenuAltRight />}
             fontSize="30px"
-            onClick={onOpen}
+            onClick={drawer.onOpen}
           ></IconButton>
         </HStack>
         <Divider shadow={"base"} />
       </VStack>
-      <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
+      <Drawer isOpen={drawer.isOpen} placement="right" onClose={drawer.onClose}>
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton size={"lg"} />
@@ -198,16 +200,73 @@ function MobileDrawer() {
               </VStack>
               <HStack paddingTop={12}>
                 <Button size={"lg"} variant={"outline"} colorScheme="teal">
-                  Login
+                  Sign Up
                 </Button>
-                <Button size={"lg"} colorScheme="teal">
-                  Sign up
+                <Button size={"lg"} onClick={login.onOpen} colorScheme="teal">
+                  Login
                 </Button>
               </HStack>
             </VStack>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
+      <AlertDialog
+        isOpen={login.isOpen}
+        leastDestructiveRef={cancelRef}
+        onClose={login.onClose}
+      >
+        <AlertDialogOverlay >
+          <AlertDialogContent alignItems={"center"} borderRadius={'3xl'}>
+            <AlertDialogHeader fontSize='2xl' fontWeight='bold'>
+              Login
+            </AlertDialogHeader>
+            <AlertDialogBody alignItems="center" justifyContent='center' justifyItems={'center'}>
+            <Box pb={4}>
+            <VStack spacing={4}>
+                <Button 
+                  leftIcon={<Icon as={FaGoogle} />} 
+                  colorScheme="red" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Google
+                </Button>
+                <Button 
+                  leftIcon={<Icon as={FaFacebook} />} 
+                  colorScheme="facebook" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Facebook
+                </Button>
+                <Button 
+                  leftIcon={<Icon as={MdEmail} />} 
+                  colorScheme="blue" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Email
+                </Button>
+                <Button 
+                  leftIcon={<Icon as={FaMobileAlt} />} 
+                  colorScheme="teal" 
+                  variant="solid"
+                  width="100%"
+                >
+                  Sign in with Mobile Number
+                </Button>
+                <Text pt={4}>
+                  Don't have an account?{' '}
+                  <Link color="teal.500" href="#" onClick={login.onClose}>
+                    Create Account
+                  </Link>
+                </Text>
+              </VStack>
+              </Box>
+            </AlertDialogBody>
+          </AlertDialogContent>
+        </AlertDialogOverlay>
+      </AlertDialog>
     </Flex>
   );
 }
